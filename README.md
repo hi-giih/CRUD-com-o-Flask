@@ -1,4 +1,4 @@
-# 📑 CRUD com Flask
+# 📑 CRUD com Flask - Lista de Tarefas
 ![Static Badge](https://img.shields.io/badge/status-Active-gren?style=for-the-badge)
 
 ## 📄 Descrição
