@@ -52,14 +52,14 @@ def update_task(id):
             task=t
             break
 
-        if task == None:
-            return jsonify({"message": "Não foi possivel encontrar a tarefa"}), 404
+    if task == None:
+        return jsonify({"message": "Não foi possivel encontrar a tarefa"}), 404
 
-        data = request.get_json()
-        task.title = data['title']
-        task.description = data['description']
-        task.completed = data['completed']
-        return jsonify({"message": "Tarefa atualizada com sucesso"})
+    data = request.get_json()
+    task.title = data['title']
+    task.description = data['description']
+    task.completed = data['completed']
+    return jsonify({"message": "Tarefa atualizada com sucesso"})
         
     print(task)
 
