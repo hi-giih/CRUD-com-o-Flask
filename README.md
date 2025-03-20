@@ -1,4 +1,4 @@
-# CRUD com Flask
+# 📑 CRUD com Flask - Lista de Tarefas
 ![Static Badge](https://img.shields.io/badge/status-Active-gren?style=for-the-badge)
 
 ## 📄 Descrição
@@ -20,8 +20,8 @@ Este projeto é um exemplo simples de CRUD (Create, Read, Update, Delete) utiliz
 
 ## 🚀 Instalando e Rodando o Projeto
 
-1. Clone este repositório: `git@github.com:hi-giih/JogoAdvinhacao.git`
-2. Acesse o diretório do projeto: `cd desafio2  - POO - Jogo Advinhação`
+1. Clone este repositório: `git@github.com:hi-giih/CRUD-com-o-Flask.git`
+2. Acesse o diretório do projeto: `cd CRUD-com-o-Flask`
 3. Crie um ambiente virtual (opcional, mas recomendado):
 
           python -m venv venv
