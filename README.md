@@ -1,5 +1,6 @@
 # 📑 CRUD com Flask - Lista de Tarefas
 ![Static Badge](https://img.shields.io/badge/status-Active-gren?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/coverage-100%25-gren?style=for-the-badge)
 
 ## 📄 Descrição
 
@@ -17,6 +18,7 @@ Este projeto é um exemplo simples de CRUD (Create, Read, Update, Delete) utiliz
 
 - **Python 3.11**: Linguagem utilizada para o desenvolvimento do jogo.
 - **Flask 2.3.0**: Framework de desenvolvimento web utilizado para criar a aplicação e gerenciar rotas HTTP.
+- **PyTest**: Ferramenta de testes automatizados para Python.
 
 ## 🚀 Instalando e Rodando o Projeto
 
@@ -41,6 +43,11 @@ Este projeto é um exemplo simples de CRUD (Create, Read, Update, Delete) utiliz
         python app.py
 
     O servidor estará disponível em: http://127.0.0.1:5000
+
+## ✅ Testes
+   Para rodar os testes automatizados com PyTest, execute o comando:
+
+        pytest tests.py -v
 
 ## 🔧 Futuras Melhorias
 
